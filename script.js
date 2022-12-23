@@ -27,6 +27,7 @@ function hourChecker(){
   })
 };
 
+//saves the information into the local storage.
 $('.saveBtn').on("click", saveText) 
 function saveText() {
   console.log(this.value)
@@ -34,6 +35,7 @@ function saveText() {
   localStorage.setItem(this.value,$(`#text${this.value}`).val())
 }
 
+//
 for (let i = 9; i < 18; i++) {
   $(`#text${i}`).val(localStorage.getItem(i))
   if(i < dayjs().hour()) {
