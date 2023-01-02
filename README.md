@@ -23,3 +23,7 @@ THEN the hour is red.
 As a user,
 I want to be able to have a daily scheduler that can keep track of all of the things i need to do in a day
 SO THAT i can have my entire days worth of meetings and assignments all in one location.
+
+## Screenshots
+
+![Alt text](Screenshot%20.png)
